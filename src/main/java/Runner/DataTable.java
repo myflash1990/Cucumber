@@ -6,10 +6,10 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/main/resources/featureFile/DataTable.feature",glue="StepDefinition",
+@CucumberOptions(features = "src/main/resources/featureFile/MyFeature.feature",glue="StepDefinition",
 dryRun=false,
 monochrome=true
-	)
-public class PostRun {
+		)
+public class DataTable {
 
 }

@@ -5,7 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Steps {
-
+	
 	@Given("{string} navigates to homepage")
 	public void navigates_to_homepage(String string) {
 		System.out.println(string + " navigates to homapage");
@@ -61,5 +61,7 @@ public class Steps {
 		System.out.println("fail");
 
 	}
+	
+	
 
 }
